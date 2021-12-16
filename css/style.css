@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contianer {
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #fbfaf7;
+}
+
+.site-header {
+  background: #163A24;
+  overflow: hidden;
+}
+
+.site-head {
+  display: flex;
+  justify-content: space-between;
+  width: 1180px;
+  height: 58px;
+  padding-top: 20px;
+}
+
+
+.header-logo {
+ width: 153px;
+ height: 58px;
+}
+
+.header-sidebar {
+  width: 590px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fbfaf7;
+  padding-top: 21px;
+}
+
+.header-login {
+  width: 75px;
+  height: 22px;
+  padding-right: 24px;
+}
+
+.header-num {
+  width: 130px;
+  height: 22px;
+  padding-right: 24px;
+}
+
+.header-login a{
+  text-decoration: none;
+  color: #fbfaf7;
+}
+
+.header-btn {
+  background: #198C36;
+  border-radius: 160px;
+  border: none;
+  width: 141px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fbfaf7;
+}
+/* HERO MAIN  */
+
+.site-hero {
+  display: flex;
+  height: 544px;
+  padding-top: 30px;
+}
+
+.hero-main {
+  width: 492px;
+  height: 294px;
+  padding-top: 120px;
+}
+
+.hero-title {
+  font-family: Recoleta;
+  width: 391px;
+  height: 196px;
+  font-size: 48px;
+  line-height: 65px;
+}
+
+.hero-text {
+  width: 475px;
+  height: 81px;
+  padding-top: 18px;
+}
+
+.hero-image {
+  width: 738px;
+  height: 580px;
+}
+/* HERO PART END  */
+
+
+/* MAIN PART  */
+
+/* PUT THE HUMAN  */
+
+.main-partner-section {
+  background-color: #e5e5e5;
+  /* overflow: hidden; */
+}
+
+.main-partner-human {
+  display: flex;
+  justify-content: space-around;
+  height: 509px;
+  padding-top: 120px;
+}
+
+.main-partner-human-title {
+  width: 393px;
+  height: 200px;
+  padding-top: 148px;
+}
+
+.main-partner-human-img {
+  width: 492px;
+  height: 510px;
+  padding-top: 10px;
+}
+
+.main-partner-human-h2 {
+  width: 325px;
+  height: 108px;
+  font-family: Recoleta;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163a24;
+}
+
+.main-partner-human-text {
+  width: 374px;
+  height: 54px;
+  color: #163a24;
+  padding-top: 17px;
+}
+
+
+/* YOU DONT HAVE TO  */
+
+.main-partner-you {
+  height: 422px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+
+.main-partner-you-title {
+  width: 393px;
+  height: 200px;
+  padding-top: 106px;
+}
+
+.main-partner-you-img {
+  width: 492px;
+  height: 423px;
+  padding-top: 3px;
+}
+
+.main-partner-you-h2 {
+  width: 376px;
+  height: 108px;
+  font-family: Recoleta;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163a24;
+}
+
+.main-partner-you-text {
+  width: 380px;
+  height: 54px;
+  color: #163a24;
+  padding-top: 27px;
+}
+
+
+/* We partner with the best */
+
+
+.main-partner {
+  height: 293px;
+  margin: auto;
+  margin-top: 242px;
+}
+
+.main-partner-title {
+  width: 539px;
+  height: 54px;
+  font-family: Recoleta;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #163a24;
+  margin: auto;
+}
+
+.main-partner-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  width: 983px;
+  height: 59px;
+  margin: auto;
+  padding-top: 66px;
+  padding-bottom: 120px;
+}
+
+
+/* HR Production of the Highest Quality */
+
+.main-hr {
+  background-color: #163a24;
+  height: 568px;
+
+}
+
+.main-hr-title {
+  width: 823px;
+  height: 54px;
+  font-family: Recoleta;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #fbfaf7;
+  margin: auto;
+  padding-top: 66px;
+}
+
+.main-hr-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 254px;
+  margin: auto;
+  margin-top: 133px;
+
+}
+
+.main-hr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 295px;
+  height: 239px;
+}
+
+.main-hr-text {
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  padding-top: 28px;
+}
