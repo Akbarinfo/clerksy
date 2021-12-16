@@ -5,6 +5,7 @@
 }
 
 .contianer {
+  /* background-color: aqua; */
   width: 1180px;
   margin-left: auto;
   margin-right: auto;
@@ -37,16 +38,20 @@ body {
  height: 58px;
 }
 
-.header-sidebar {
+.header-nav {
   width: 590px;
   height: 27px;
+  padding-top: 21px;
+}
+
+.header-sidebar {
   display: flex;
   align-items: center;
   justify-content: right;
+  list-style-type: none;
   font-size: 16px;
   line-height: 22px;
   color: #fbfaf7;
-  padding-top: 21px;
 }
 
 .header-login {
@@ -108,6 +113,7 @@ body {
   width: 738px;
   height: 580px;
 }
+
 /* HERO PART END  */
 
 
@@ -117,6 +123,11 @@ body {
 
 .main-partner-section {
   background-color: #e5e5e5;
+}
+
+.main-partner-human-list {
+  flex-direction: column;
+  list-style-type: none;
 }
 
 .main-partner-human {
@@ -154,6 +165,7 @@ body {
   padding-top: 17px;
 }
 
+/* PUT THE HUMAN END */
 
 /* YOU DONT HAVE TO  */
 
@@ -192,6 +204,7 @@ body {
   padding-top: 27px;
 }
 
+/* YOU DONT HAVE TO END */
 
 /* We partner with the best */
 
@@ -225,6 +238,7 @@ body {
   padding-bottom: 120px;
 }
 
+/* We partner with the best END */
 
 /* HR Production of the Highest Quality */
 
@@ -270,4 +284,435 @@ body {
   height: 54px;
   text-align: center;
   padding-top: 28px;
+}
+
+/* HR Production of the Highest Quality END*/
+
+/* EMPLOYEES COME IN....  */
+
+.main-employees {
+  background-color: #f2efe6;
+  height: 775px;
+}
+
+.main-employees-title {
+  width: 739px;
+  height: 108px;
+  font-family: Recoleta;
+  font-size: 46px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #163a24;
+  text-align: center;
+  margin: auto;
+  padding-top: 114px;
+}
+
+.main-employees-text {
+  width: 760px;
+  height: 54px;
+  color: #163a24;
+  text-align: center;
+  margin: auto;
+  padding-top: 132px;
+}
+
+.main-employees-img {
+  width: 1180px;
+  height: 335px;
+  padding-top: 60px;
+}
+
+/* EMPLOYEES COME IN.... END */
+
+
+/* HOW THE SCENES */
+
+.main-how {
+  height: 426px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 180px;
+  margin-bottom: 114px;
+}
+
+.main-how-main {
+  width: 379px;
+  height: 216px;
+  padding-top: 94px;
+}
+
+.main-how-title {
+  width: 338px;
+  height: 108px;
+  font-family: Recoleta;
+  font-size: 46px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #163a24;
+}
+
+.main-how-text {
+  width: 379px;
+  height: 81px;
+  color: #163a24;
+  padding-top: 27px;
+}
+
+.main-how-img {
+  width: 487px;
+  height: 417px;
+  padding-right: 100px;
+}
+
+/* HOW THE SCENES END*/
+
+
+/* Consider everyone's best interest */
+
+.main-consider {
+  height: 669px;
+
+}
+
+.main-consider-title {
+  width: 727px;
+  height: 54px;
+  font-family: Recoleta;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #163a24;
+  margin: auto;
+}
+
+.main-consider-text {
+  width: 343px;
+  height: 27px;
+  color: #163a24;
+  margin: auto;
+  padding-top: 16px;
+}
+
+.main-consider-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 430px;
+  padding-top: 28px;
+}
+
+.main-consider-item {
+  background: #FBFAF7;
+  box-shadow: 5px 5px 20px #E9E4D5;
+  border-radius: 15px;
+  width: 353px;
+  height: 393px;
+  padding-left: 40px;
+  padding-right: 12px;
+  padding-top: 50px;
+}
+
+.main-consider-item2 {
+  background: #FBFAF7;
+  box-shadow: 5px 5px 20px #E9E4D5;
+  border-radius: 15px;
+  width: 353px;
+  height: 430px;
+  padding-left: 40px;
+  padding-right: 12px;
+  padding-top: 50px;
+}
+
+.main-consider-img {
+  width: 82px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.main-consider-h3 {
+  width: 280px;
+  height: 63px;
+  font-family: Recoleta;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 31px;
+  color: #163a24;
+  padding-top: 20px;
+}
+
+.main-consider-list2 {
+ color: #163a24;
+ list-style-type: disc;
+ padding-top: 43px;
+ padding-left: 20px;
+}
+
+.main-consider-items {
+  padding-bottom: 15px;
+}
+
+/* Consider everyone's best interest  END*/
+
+
+/* It's easy as 1, 2, 3 */
+
+.main-its {
+  background-color: #f2efe6;
+  height: 602px;
+}
+
+.main-its-title {
+  font-family: Recolate;
+  font-size: 46px;
+  line-height: 54px;
+  font-weight: 600;
+  color: #163a24;
+  margin: auto;
+  text-align: center;
+  padding-top: 114px;
+}
+
+.main-its-text {
+  width: 527px;
+  height: 27px;
+  color: #163a24;
+  padding-top: 26px;
+  margin: auto;
+}
+
+.main-its-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  height: 186px;
+  padding-top: 60px;
+}
+
+.main-its-item {
+  width: 393px;
+  height: 141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-its-items {
+  width: 290px;
+  height: 183px;
+}
+
+.main-its-item-text {
+  height: 54px;
+  color: #163a24;
+  text-align: center;
+
+}
+
+.main-its-item-h {
+  font-family: Recolate;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+  color: #163a24;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.main-its-button {
+  padding-top: 46px;
+  text-align: center;
+}
+
+.main-its-btn {
+  background: #198C36;
+  border-radius: 160px;
+  border: none;
+  width: 244px;
+  height: 52px;
+  color: #fbfaf7;
+  text-align: center;
+}
+
+/* It's easy as 1, 2, 3 END  */
+
+
+/* Not just another HR resource. */
+
+.main-not {
+  height: 513px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 119px;
+  margin-bottom: 235px;
+  /* padding-top: 135px; */
+
+}
+
+.main-not-main {
+  width: 393px;
+  height: 229px;
+  padding: 136px;
+}
+
+.main-not-title {
+  width: 360px;
+  height: 108px;
+  font-family: Recoleta;
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #163a24;
+}
+
+.main-not-text {
+  width: 287px;
+  height: 27px;
+  color: #163a24;
+  padding-top: 25px;
+  /* padding-bottom: 135px; */
+}
+
+.main-not-button {
+  padding-top: 19px;
+}
+
+.main-not-btn {
+  background: #198C36;
+  border-radius: 160px;
+  border: none;
+  width: 191px;
+  height: 52px;
+  color: #fbfaf7;
+  margin-top: 19px;
+}
+
+.main-not-img {
+  width: 492px;
+  height: 510px;
+}
+/* Not just another HR resource. END*/
+
+/* Get Started With Clerksy */
+
+.main-get {
+  background-color: #163a24;
+  height: 415px;
+}
+
+.main-get-title {
+  width: 549px;
+  height: 54px;
+  font-family: Recoleta;
+  font-size: 46px;
+  line-height: 54px;
+  color: #fbfaf7;
+  margin: auto;
+  padding-top: 114px;
+
+}
+
+.main-get-text {
+  width: 361px;
+  height: 27px;
+  color: #fbfaf7;
+  margin: auto;
+  padding-top: 75px;
+}
+
+.main-get-button {
+  text-align: center;
+  padding-top: 45px;
+}
+
+.main-get-btn {
+  background: #FAB5A0;
+  border-radius: 160px;
+  border: none;
+  width: 258px;
+  height: 52px;
+  color: #163a24;
+  font-weight: 600;
+}
+
+/* Get Started With Clerksy  END*/
+
+/* FOOTER PART  */
+
+.site-footer {
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.footer-logo {
+  width: 110px;
+  height: 42px;
+}
+
+.footer-desc {
+  width: 242px;
+  height: 36px;
+  font-family: Recoleta;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #163a24;
+}
+
+.footer-socials {
+  width: 150px;
+  height: 32px;
+}
+
+.footer-socials-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+footer hr {
+  background: #F2EFE6;
+  margin-top: 20px;
+}
+
+.footer-copy {
+  width: 462px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #163a24;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.footer-copyright {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: baseline;
+}
+
+.footer-nav {
+  width: 750px;
+  height: 19px;
+  display: flex;
+  justify-content: right;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 410px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #198C36;
+  font-size: 14px;
+  line-height: 19px;
 }
